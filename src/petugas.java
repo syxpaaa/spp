@@ -18,6 +18,10 @@ import koneksi.modeldatabase;
  * @author Client
  */
 public class petugas extends javax.swing.JInternalFrame {
+
+    static void setId_petugas(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 void kosong(){
         username.setText("");
         psw.setText("");

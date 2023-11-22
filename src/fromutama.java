@@ -1,3 +1,7 @@
+
+import javax.swing.JOptionPane;
+import koneksi.seter_generat_petugas;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,6 +19,7 @@ public class fromutama extends javax.swing.JFrame {
      */
     public fromutama() {
         initComponents();
+         JOptionPane.showMessageDialog(null, seter_generat_petugas.getUsername());
     }
 
     /**
